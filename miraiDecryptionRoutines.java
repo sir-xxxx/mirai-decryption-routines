@@ -1,6 +1,6 @@
 //Ghidra Script to detect mirai decryption routines and decrypt the strings found.
 //Currently the encryption types Shift XOR, RC4 and Bruetforce XOR are supported.
-//@category Analysis/Mirai
+//@category Analysis.Mirai
 
 import ghidra.app.decompiler.DecompInterface;
 import ghidra.app.decompiler.DecompileResults;
